@@ -5,6 +5,7 @@
  *   クライアントから送られてきた文字列を大文字に変換して送り返す。
  */
 
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>
