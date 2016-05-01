@@ -5,11 +5,11 @@
  *   クライアントから送られてきた文字列を大文字に変換して送り返す。
  */
 
-#include < stdio.h >
-#include < string.h >
-#include < sys/types.h >
-#include < sys/socket.h >
-#include < sys/un.h >
+#include <stdio.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/un.h>
 
 #define SOCK_NAME    "/tmp/socket"    /* 通信に使うソケットファイル */
 
